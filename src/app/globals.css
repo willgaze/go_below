@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+
+  body {
+    @apply bg-ink font-sans antialiased;
+    color: rgba(241, 237, 229, 0.85);
+  }
+
+  ::selection {
+    background-color: rgba(196, 135, 47, 0.3);
+    color: #F1EDE5;
+  }
+
+  /* Keyboard focus has to survive on both limestone and ink sections. */
+  :focus-visible {
+    outline: 2px solid theme('colors.amber.soft');
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  /* The brand lockup: wide-tracked, quiet, architectural. */
+  .brand-mark {
+    @apply font-display tracking-brand uppercase;
+  }
+
+  /* Scroll reveal. Deliberately slight — a lift and a fade, nothing more.
+     Elements are visible by default so the page still reads with JS off
+     or if the observer never fires. */
+  .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition:
+      opacity 900ms theme('transitionTimingFunction.arch'),
+      transform 900ms theme('transitionTimingFunction.arch');
+    will-change: opacity, transform;
+  }
+  .reveal[data-shown='true'],
+  .no-js .reveal {
+    opacity: 1;
+    transform: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+
+  /* A rule that reads as a drawing line rather than a divider.
+     Written as plain CSS: `@apply` rejects off-scale opacity steps. */
+  .hairline {
+    border-color: rgba(241, 237, 229, 0.12);
+  }
+}
