@@ -17,7 +17,7 @@ export function Hero() {
             The brief is explicit that the first attempt was too dark. */}
         <div
           aria-hidden
-          className="absolute inset-0 bg-[linear-gradient(to_top,rgba(16,14,12,0.92)_0%,rgba(16,14,12,0.45)_38%,rgba(16,14,12,0.20)_70%,rgba(16,14,12,0.45)_100%)]"
+          className="absolute inset-0 bg-[linear-gradient(to_top,rgba(16,14,12,0.90)_0%,rgba(16,14,12,0.74)_22%,rgba(16,14,12,0.30)_50%,rgba(16,14,12,0.06)_72%,rgba(16,14,12,0.34)_100%)]"
         />
       </div>
 

@@ -39,12 +39,15 @@ const slot = (
 export const images = {
   hero: slot(
     'hero-living-lightwell',
-    'Hero. Luxury underground living room, large planted light well overhead, ' +
-      'reflecting water, warm stone and timber. Daylight falling into deep ' +
-      'architectural concrete. Must read as unmistakably underground and ' +
-      'unmistakably desirable.',
-    'An underground living room lit by a planted light well, with water, stone and timber',
+    'Hero. Luxury underground living room beneath an open planted light well. ' +
+      'Daylight, real sky, and — the thing that makes it work — the cut edge ' +
+      'of the ground itself visible at the rim, so you can see how far below ' +
+      'grade the room sits.',
+    'An underground living room beneath an open light well, with daylight falling past ' +
+      'the exposed edge of the ground onto board-marked concrete, a stone stair and ' +
+      'low linen seating',
     'daylight',
+    '/images/hero-living-lightwell.webp',
   ),
 
   // What can exist below — one per category

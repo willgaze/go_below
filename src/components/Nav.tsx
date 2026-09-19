@@ -36,6 +36,19 @@ export function Nav() {
         scrolled || open ? 'bg-ink-deep/92 backdrop-blur-md' : 'bg-transparent'
       }`}
     >
+      {/*
+        The hero is a bright daylight photograph and limestone nav text over
+        open sky measures 1.67:1 — unreadable. This scrim runs to 160px, well
+        past the 80px bar, so the fade completes below the text instead of at
+        its baseline. Hidden once the solid header takes over on scroll.
+      */}
+      {!scrolled && !open && (
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-x-0 top-0 h-40 bg-[linear-gradient(to_bottom,rgba(16,14,12,0.82)_0%,rgba(16,14,12,0.66)_38%,rgba(16,14,12,0.34)_68%,transparent_100%)]"
+        />
+      )}
+
       <nav
         aria-label="Primary"
         className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8"
