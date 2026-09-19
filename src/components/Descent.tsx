@@ -16,8 +16,9 @@ const stages = [
     depth: 'The descent',
     title: 'Down through the structure',
     copy:
-      'Stair or lift, with daylight following you down. The moment the walls ' +
-      'thicken and the light changes is the moment the building becomes ours.',
+      'The walls thicken, the rock face appears behind glass, and the light ' +
+      'stops being weather and starts being designed. This is the moment the ' +
+      'building becomes ours.',
   },
   {
     key: 'descentArrival' as const,

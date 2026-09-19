@@ -97,11 +97,12 @@ export const images = {
     'daylight',
   ),
   descentStair: slot(
-    'descent-stair',
-    'The descent itself. Stair or lift shaft, daylight falling from above into ' +
-      'deepening concrete.',
-    'A staircase descending from daylight into deep architectural concrete',
+    'descent-corridor',
+    'The descent itself. A corridor or stair running deeper into the structure, ' +
+      'the walls thickening and the light becoming engineered rather than natural.',
+    'A glass-walled underground corridor running between lit rock faces and planting',
     'warm',
+    '/images/descent-corridor.webp',
   ),
   descentArrival: slot(
     'descent-arrival',
