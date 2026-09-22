@@ -1,6 +1,6 @@
 # Go Below — photography manifest
 
-> **Ready-to-use generation prompts for all eleven images: [PROMPTS.md](./PROMPTS.md)**
+> **Generation prompts: [PROMPTS.md](./PROMPTS.md)** — rewritten (v2) around what worked in the two images already delivered.
 
 No photography exists in this repository yet. Every image slot on the site is
 declared in `src/lib/images.ts` and currently renders a designed placeholder
