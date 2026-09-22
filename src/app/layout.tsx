@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter, Instrument_Serif } from 'next/font/google'
 import './globals.css'
 import { site } from '@/lib/site'
+import { allowIndexing } from '@/lib/indexing'
 
 const sans = Inter({
   subsets: ['latin'],
@@ -41,7 +42,11 @@ export const metadata: Metadata = {
     title: 'Go Below — Bespoke underground construction, UK',
     description: site.description,
   },
-  robots: { index: true, follow: true },
+  // Belt and braces with robots.ts: a disallowed page can still be indexed
+  // from an external link, but noindex cannot.
+  robots: allowIndexing
+    ? { index: true, follow: true }
+    : { index: false, follow: false, nocache: true },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
