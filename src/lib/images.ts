@@ -56,12 +56,14 @@ export const images = {
     'Underground bedroom with skylight and planting. Calm, warm, residential.',
     'An underground bedroom lit from above by a skylight, with planting at the opening',
     'daylight',
+    '/images/living-bedroom-skylight.webp',
   ),
   wellness: slot(
     'wellness-pool-spa',
     'Underground pool and spa. Water, stone, engineered daylight, steam.',
     'An underground pool and spa lit by engineered daylight over stone',
     'daylight',
+    '/images/wellness-pool-spa.webp',
   ),
   entertainment: slot(
     'entertainment-cinema',
@@ -69,6 +71,7 @@ export const images = {
       'because that is what the room is for.',
     'A private underground cinema with tiered seating',
     'deep',
+    '/images/entertainment-cinema.webp',
   ),
   automotive: slot(
     'automotive-vehicle-vault',
@@ -76,6 +79,7 @@ export const images = {
       'dramatic but clean lighting.',
     'An underground vehicle vault with polished floors and structural columns',
     'warm',
+    '/images/automotive-vehicle-vault.webp',
   ),
   protection: slot(
     'protection-blast-door',
@@ -83,12 +87,14 @@ export const images = {
       'set. The point is that security sits inside a beautiful building.',
     'A secure blast door set into a finished underground corridor',
     'deep',
+    '/images/protection-blast-door.webp',
   ),
   specialist: slot(
     'specialist-wine-room',
     'Underground wine room. Timber racking, cool stone, low warm light.',
     'An underground wine room with timber racking and stone walls',
     'warm',
+    '/images/specialist-wine-room.webp',
   ),
 
   // The descent sequence
