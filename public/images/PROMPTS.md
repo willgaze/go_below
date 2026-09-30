@@ -7,7 +7,10 @@ them**, not around what the first set of prompts asked for.
 |---|---|
 | `hero-living-lightwell` | ✅ in |
 | `descent-corridor` | ✅ in |
-| the other nine | below |
+| `descent-concealed-entrance` | ✅ in |
+| `descent-arrival` | ✅ in |
+| the six category cards | ✅ in |
+| `engineering-structure` | outstanding — see Priority 3 |
 
 ## What the two successes taught us
 
@@ -130,7 +133,7 @@ its material palette** so the three read as one journey.
 > reads as a bunker entrance. The whole point is that you would walk past it.
 > Quiet, expensive, unmistakably English.
 
-**Aspect: 16:10.** The only image in the set shot above ground — it must feel
+**Aspect: 16:9** (nano-banana-pro does not offer 16:10). The only image in the set shot above ground — it must feel
 ordinary, so the descent has somewhere to travel from.
 
 ### 8. `descent-arrival` — daylight
@@ -144,7 +147,7 @@ ordinary, so the descent has somewhere to travel from.
 > underground" frame; it should be the second most spectacular image after the
 > hero.
 
-**Aspect: 16:10.**
+**Aspect: 16:9** (nano-banana-pro does not offer 16:10).
 
 ---
 

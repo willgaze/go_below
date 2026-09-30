@@ -102,8 +102,10 @@ export const images = {
     'descent-concealed-entrance',
     'Concealed entrance at ground level — an ordinary lawn, courtyard or garden ' +
       'building that gives nothing away.',
-    'A concealed entrance at ground level, giving no sign of what lies beneath',
+    'A frameless glass rooflight set flush into a clipped lawn between yew hedges, ' +
+      'the only sign of the house below',
     'daylight',
+    '/images/descent-concealed-entrance.webp',
   ),
   descentStair: slot(
     'descent-corridor',
@@ -117,8 +119,10 @@ export const images = {
     'descent-arrival',
     'Arrival. The space opening up — the "I cannot believe that is underground" ' +
       'moment.',
-    'An expansive underground space opening up at the foot of the descent',
+    'A double-height underground hall beneath a wide rooflight, the cut edge of the ' +
+      'ground visible above board-marked concrete, planting spilling down one wall',
     'daylight',
+    '/images/descent-arrival.webp',
   ),
 
   // Engineering / process
